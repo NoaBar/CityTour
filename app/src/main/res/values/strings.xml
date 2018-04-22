@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">CityTour</string>
+    <string name="app_name">CityTour Jerusalem</string>
+
+
+    <string name="restaurants">Restaurants</string>
+    <string name="attractions">Attractions</string>
+    <string name="usefulWeb">Useful Websites</string>
+    <string name="parks">Parks</string>
+
 </resources>
