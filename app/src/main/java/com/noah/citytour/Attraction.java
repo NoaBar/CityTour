@@ -31,25 +31,25 @@ public class Attraction {
      */
     private String mLink;
 
-/**
- * Constructor 1
- * Create a new Attraction object.
- */
+    /**
+     * Constructor 1
+     * Create a new Attraction object.
+     */
 
-public Attraction(String name, String address, String info, int image, String link){
-    mName = name;
-    mAddress = address;
-    mInfo = info;
-    mImage = image;
-    mLink = link;
-}
+    public Attraction(String name, String address, String info, int image, String link) {
+        mName = name;
+        mAddress = address;
+        mInfo = info;
+        mImage = image;
+        mLink = link;
+    }
 
     /**
      * Constructor 2
      * Create a new Attraction object without address.
      */
 
-    public Attraction(String name, String info, int image, String link){
+    public Attraction(String name, String info, int image, String link) {
         mName = name;
         mInfo = info;
         mImage = image;
@@ -80,11 +80,14 @@ public Attraction(String name, String address, String info, int image, String li
     /**
      * Get image of attraction
      */
-    public int getImage(){
+    public int getImage() {
         return mImage;
     }
 
-    public String getLink(){
+    /**
+     * Get Link for website attraction
+     */
+    public String getLink() {
         return mLink;
     }
 }
