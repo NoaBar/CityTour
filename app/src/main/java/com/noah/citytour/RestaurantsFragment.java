@@ -1,6 +1,5 @@
 package com.noah.citytour;
 
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -18,7 +17,6 @@ public class RestaurantsFragment extends Fragment {
     public RestaurantsFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

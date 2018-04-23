@@ -1,6 +1,8 @@
 package com.noah.citytour;
 
+import android.support.v4.app.Fragment;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
@@ -20,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        
+
         ActionBar actionbar = getSupportActionBar();
         actionbar.setDisplayHomeAsUpEnabled(true);
         actionbar.setHomeAsUpIndicator(R.drawable.ic_menu_white);
@@ -41,9 +43,32 @@ public class MainActivity extends AppCompatActivity {
                         // Add code here to update the UI based on the item selected
                         // For example, swap UI fragments here
 
+                        Fragment fragment = null;
+
+                        int id = menuItem.getItemId();
+
+                        if (id == R.id.restaurants) {
+                            fragment = new RestaurantsFragment();
+                        } else if (id == R.id.parks) {
+                            fragment = new RestaurantsFragment();
+                        } else if (id == R.id.useful_web) {
+                            fragment = new RestaurantsFragment();
+                        } else if (id == R.id.shopping) {
+                            fragment = new RestaurantsFragment();
+                        }
+                        openFragment(fragment);
                         return true;
                     }
                 });
+
+    }
+
+    private void openFragment(Fragment fragment){
+        if (fragment != null) {
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            fragmentManager.beginTransaction()
+                    .replace(R.id.content_frame, fragment).commit();
+        }
     }
 
     @Override
@@ -55,5 +80,5 @@ public class MainActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-
 }
+
