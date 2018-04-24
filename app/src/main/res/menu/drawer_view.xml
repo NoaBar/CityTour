@@ -2,18 +2,21 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/parks"
-            android:icon="@drawable/number_one"
-            android:title="@string/parks" />
+
         <item
             android:id="@+id/restaurants"
             android:icon="@drawable/number_one"
             android:title="@string/restaurants" />
         <item
-            android:id="@+id/shopping"
+            android:id="@+id/theaters_shows"
             android:icon="@drawable/number_one"
-            android:title="@string/shopping" />
+            android:title="@string/theaters_shows" />
+
+        <item
+            android:id="@+id/parks"
+            android:icon="@drawable/number_one"
+            android:title="@string/parks" />
+
         <item
             android:id="@+id/useful_web"
             android:icon="@drawable/number_one"
