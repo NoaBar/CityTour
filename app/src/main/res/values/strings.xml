@@ -7,8 +7,8 @@
     <string name="parks">Parks and Nature</string>
     <string name="usefulWeb">Useful Websites</string>
 
+    <string name="muni_link"><a herf="https://www.jerusalem.muni.il/en/Pages/default.aspx#/">For more details</a></string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="who"><a href="http://www.who.int/mediacentre/factsheets/fs351/en/">World health organization</a></string>
 
 </resources>

@@ -46,17 +46,6 @@ public class MainActivity extends AppCompatActivity {
                         Fragment fragment = null;
 
                         int id = menuItem.getItemId();
-/**
-                        if (id == R.id.restaurants) {
-                            fragment = new RestaurantsFragment();
-                        } else if (id == R.id.parks) {
-                            fragment = new RestaurantsFragment();
-                        } else if (id == R.id.useful_web) {
-                            fragment = new RestaurantsFragment();
-                        } else if (id == R.id.theaters_shows) {
-                            fragment = new TheatersFragment();
-                        }
- */
 
                         switch (id){
                             case R.id.restaurants:
@@ -69,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                                 fragment = new TheatersFragment();
                                 break;
                             case R.id.useful_web:
-                                fragment = new RestaurantsFragment();
+                                fragment = new WebFragment();
                                 break;
                         }
                         openFragment(fragment);

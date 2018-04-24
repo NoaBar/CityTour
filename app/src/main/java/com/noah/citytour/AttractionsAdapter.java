@@ -2,13 +2,14 @@ package com.noah.citytour;
 
 import android.app.Activity;
 import android.support.annotation.NonNull;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import java.util.ArrayList;
 
 public class AttractionsAdapter extends ArrayAdapter<Attraction> {
