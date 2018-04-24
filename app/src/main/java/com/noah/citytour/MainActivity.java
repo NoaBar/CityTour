@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                                 fragment = new RestaurantsFragment();
                                 break;
                             case R.id.parks:
-                                fragment = new RestaurantsFragment();
+                                fragment = new ParksFragment();
                                 break;
                             case R.id.theaters_shows:
                                 fragment = new TheatersFragment();
