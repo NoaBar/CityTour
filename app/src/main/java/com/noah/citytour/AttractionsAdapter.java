@@ -40,7 +40,9 @@ public class AttractionsAdapter extends ArrayAdapter<Attraction> {
         address.setText(currentWord.getAddress());
 
         TextView link = (TextView) listItemView.findViewById(R.id.link);
-        link.setText(currentWord.getLink());
+        link.setClickable(true);
+        link.setMovementMethod(LinkMovementMethod.getInstance());
+        link.setText(Html.fromHtml(currentWord.getLink()));
 
         ImageView image = (ImageView) listItemView.findViewById(R.id.image);
         image.setImageResource(currentWord.getImage());
