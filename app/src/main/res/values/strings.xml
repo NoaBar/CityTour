@@ -3,12 +3,31 @@
 
 
     <string name="restaurants">Restaurants</string>
+    <string name="culinary">Culinary</string>
     <string name="theaters_shows">Theaters and Shows</string>
     <string name="parks">Parks and Nature</string>
     <string name="usefulWeb">Useful Websites</string>
 
     <string name="muni_link">&lt;a href="https://www.jerusalem.muni.il/en/Pages/default.aspx"&gt;For more details&lt;/a&gt;</string>
 
-    <string name="who"><a href="http://www.who.int/mediacentre/factsheets/fs351/en/">World health organization</a></string>
+    <string name="alternative_guide_link">&lt;a href=https://www.facebook.com/%D7%94%D7%9E%D7%93%D7%A8%D7%99%D7%9A-%D7%9C%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%9E%D7%99-%D7%94%D7%90%D7%9C%D7%98%D7%A8%D7%A0%D7%98%D7%99%D7%91%D7%99-321275831317927/&gt; Click here!&lt;/a&gt;</string>
+    <string name="arbes_link">&lt;a href="http://www.machne.co.il/category/%D7%90%D7%A8%D7%91%D7%A2%D7%A1"&gt;For more details&lt;/a&gt;</string>
+    <string name="waffle_link">&lt;a href="http://www.wafflefactory.co.il/"&gt;For more details&lt;/a&gt;</string>
+    <string name="habash_link">&lt;a href="https://www.facebook.com/h1234545/?ref=nf"&gt;For more details&lt;/a&gt;</string>
+    <string name="sushiya_link">&lt;a href="https://www.rol.co.il/sites/sushiya/"&gt;For more details&lt;/a&gt;</string>
+    <string name="habardak_link">&lt;a href="http://www.habardak.co.il/"&gt;For more details&lt;/a&gt;</string>
+
+    <string name="mazkeka_link">&lt;a href="www.mazkeka.com"&gt;For more details&lt;/a&gt;</string>
+    <string name="khan_link">&lt;a href="https://khan.co.il/"&gt;For more details&lt;/a&gt;</string>
+    <string name="jeur_theater_link">&lt;a href="https://www.jerusalem-theatre.co.il"&gt;For more details&lt;/a&gt;</string>
+    <string name="cinema_city_link">&lt;a href="https://www.cinema-city.co.il"&gt;For more details&lt;/a&gt;</string>
+    <string name="abrahamhostel_link">&lt;a href="https://abrahamhostels.com/jerusalem/"&gt;For more details&lt;/a&gt;</string>
+
+    <string name="zoo_link">&lt;a href="http://www.jerusalemzoo.org/home-english"&gt;For more details&lt;/a&gt;</string>
+    <string name="jeru_park_link">&lt;a href="http://www.jerusalempark.org.il/"&gt;For more details&lt;/a&gt;</string>
+    <string name="lion_foun_link">&lt;a href="https://www.jerusalem.muni.il/Residents/ParksandLandscapes/Gardens/site420/Pages/PageSite_30.aspx"&gt;For more details&lt;/a&gt;</string>
+    <string name="bell_link">&lt;a href="https://www.jerusalem.muni.il/Residents/ParksandLandscapes/Gardens/site420/Pages/PageSite_3631.aspx"&gt;For more details&lt;/a&gt;</string>
+    <string name="sacher_link">&lt;a href="https://www.jerusalem.muni.il/Residents/ParksandLandscapes/Gardens/site420/Pages/PageSite_3479.aspx"&gt;For more details&lt;/a&gt;</string>
+    <string name="market_link">&lt;a href="http://en.machne.co.il/"&gt;For more details&lt;/a&gt;</string>
 
 </resources>

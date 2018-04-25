@@ -24,16 +24,16 @@ public class TheatersFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.attractions_list, container, false);
 
         final ArrayList<Attraction> attractions = new ArrayList<>();
-        attractions.add(new Attraction("Mazkeka Venue","Shoshan, 3","info",
-                R.drawable.hamazkeka, "www.mazkeka.com"));
-        attractions.add(new Attraction("Jerusalem Khan Theatre", "David Remez, 2", "info",
-                R.drawable.khan, "https://khan.co.il/"));
-        attractions.add(new Attraction("Jerusalem Theatre", "David Marcus, 20", "info",
-                R.drawable.jerutheater, "https://www.jerusalem-theatre.co.il"));
-        attractions.add(new Attraction("Cinema City Jerusalem", "Sderot Yitshak Rabin, 10", "info",
-                R.drawable.cinemacity, "https://www.cinema-city.co.il"));
-        attractions.add(new Attraction("Abraham Hostel", "HaNeviim, 67", "info",
-                R.drawable.abrahamhostel, "https://abrahamhostels.com/jerusalem/"));
+        attractions.add(new Attraction("Mazkeka Venue","Shoshan, 3","Indie music every evening!",
+                R.drawable.hamazkeka, getString(R.string.mazkeka_link)));
+        attractions.add(new Attraction("Jerusalem Khan Theatre", "David Remez, 2", "For intimate experience of theatre and music events at the theatre coffee place.",
+                R.drawable.khan, getString(R.string.khan_link)));
+        attractions.add(new Attraction("Jerusalem Theatre", "David Marcus, 20", "The centre for the performing arts in Jerusalem.",
+                R.drawable.jerutheater, getString(R.string.jeur_theater_link)));
+        attractions.add(new Attraction("Cinema City Jerusalem", "Sderot Yitshak Rabin, 10", "The place to watch all the latest movies.",
+                R.drawable.cinemacity, getString(R.string.cinema_city_link)));
+        attractions.add(new Attraction("Abraham Hostel", "HaNeviim, 67", "Take a part in the nightlife and events in the hostel, even if you are not staying there.",
+                R.drawable.abrahamhostel, getString(R.string.abrahamhostel_link)));
 
         AttractionsAdapter adapter = new AttractionsAdapter(getActivity(), attractions);
 

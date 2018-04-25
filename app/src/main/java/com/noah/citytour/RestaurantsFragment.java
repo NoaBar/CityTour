@@ -24,16 +24,19 @@ public class RestaurantsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.attractions_list, container, false);
 
         final ArrayList<Attraction> attractions = new ArrayList<>();
+        attractions.add(new Attraction("Machane Yehuda market",
+                "Machane Yehuda St", "Walk around the market in daylight to experience the flavors and scents of a true market, come back at night for the shows and the drinks!",
+                R.drawable.market ,getString(R.string.market_link)));
         attractions.add(new Attraction("Sushi-ya","Trumpeldor 1","The nicest most homely sushi place in town. Try the rice bowl!",
-                R.drawable.sushiya, "link"));
+                R.drawable.sushiya, getString(R.string.sushiya_link)));
         attractions.add(new Attraction("Habash", "Mashiyah Barukhof, 5", "For some Ethiopian tastes.",
-                R.drawable.habash, "link"));
-        attractions.add(new Attraction("P² Pizza", "Keren HaYesod, 36", "Pizza. Not for Kosher eaters.",
-                R.drawable.p2pizza, "link"));
+                R.drawable.habash, getString(R.string.habash_link)));
+        attractions.add(new Attraction("HaBardak", "Keren HaYesod, 38", "Pizza with a variety of toppings and beers.",
+                R.drawable.bardak, getString(R.string.habardak_link)));
         attractions.add(new Attraction("Waffle Factory", "Sderot Yitshak Rabin, 10", "For a nice meal and even nicer dessert.",
-                R.drawable.waffle, "http://www.wafflefactory.co.il/"));
+                R.drawable.waffle, getString(R.string.waffle_link)));
         attractions.add(new Attraction("Arbes", "Shilo, 1", "After visiting the Mahane Yehuda market, come and eat hummus!",
-                R.drawable.arbes, "http://www.machne.co.il/category/%D7%90%D7%A8%D7%91%D7%A2%D7%A1"));
+                R.drawable.arbes, getString(R.string.arbes_link)));
 
         AttractionsAdapter adapter = new AttractionsAdapter(getActivity(), attractions);
 
