@@ -29,12 +29,20 @@ public class MainActivity extends AppCompatActivity {
 
         mDrawerLayout = findViewById(R.id.drawer_layout);
 
+        Fragment fragment = new RestaurantsFragment();
+        openFragment(fragment);
+
         NavigationView navigationView = findViewById(R.id.nav_view);
+
+        //Default fragment is highlighted in the navigation drawer at start.
+        navigationView.setCheckedItem(R.id.restaurants);
+
         navigationView.setItemIconTintList(null);
         navigationView.setNavigationItemSelectedListener(
                 new NavigationView.OnNavigationItemSelectedListener() {
                     @Override
                     public boolean onNavigationItemSelected(MenuItem menuItem) {
+
                         // set item as selected to persist highlight
                         menuItem.setChecked(true);
                         // close drawer when item is tapped
@@ -48,6 +56,9 @@ public class MainActivity extends AppCompatActivity {
                         int id = menuItem.getItemId();
 
                         switch (id){
+                            default:
+                                fragment = new RestaurantsFragment();
+                                break;
                             case R.id.restaurants:
                                 fragment = new RestaurantsFragment();
                                 break;
@@ -60,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
                             case R.id.useful_web:
                                 fragment = new WebFragment();
                                 break;
+
                         }
                         openFragment(fragment);
                         return true;

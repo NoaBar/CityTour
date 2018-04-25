@@ -30,7 +30,7 @@ public class ParksFragment extends Fragment {
         attractions.add(new Attraction("Sacher Garden","Sderot Ben Tsvi, 1","The Central park of Jerusalem!",
                 R.drawable.sacher,
                 getString(R.string.sacher_link)));
-        attractions.add(new Attraction("The Bell(Hapa'amon) garden", "King David St", "Great for families with children.",
+        attractions.add(new Attraction("The Bell (Hapa'amon) garden", "King David St", "Great for families with children.",
                 R.drawable.bellpark,
                 getString(R.string.bell_link)));
         attractions.add(new Attraction("Lions Fountain, Bloomfield Park", "King David St", "Come and enjoy the fountain, the statues and the flowers in spring.",
