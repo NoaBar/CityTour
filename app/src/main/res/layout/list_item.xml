@@ -23,15 +23,6 @@
         android:layout_height="wrap_content"
         tools:text="Info of Attraction" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_location_on_black_24dp" />
 
         <TextView
             android:id="@+id/address"
@@ -39,15 +30,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@android:color/holo_blue_light"
-            tools:text="Address of Attraction" />
-    </LinearLayout>
+            tools:text="   Address of Attraction"
+            android:gravity="center"
+            android:drawableStart="@android:drawable/ic_dialog_map"
+            android:drawableTint="@android:color/black" />
 
     <TextView
         android:id="@+id/link"
         style="@style/list_item"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="Link of Attraction" />
+        tools:text="   Link of Attraction"
+        android:gravity="center"
+        android:drawableStart="@android:drawable/ic_dialog_info"
+        android:drawableTint="@android:color/black"/>
 
     <ImageView
         android:id="@+id/image"
