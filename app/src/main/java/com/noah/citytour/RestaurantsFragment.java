@@ -29,13 +29,13 @@ public class RestaurantsFragment extends Fragment {
                 R.drawable.market ,getString(R.string.market_link)));
         attractions.add(new Attraction("Sushi-ya","Trumpeldor 1","The nicest most homely sushi place in town. Try the rice bowl!",
                 R.drawable.sushiya, getString(R.string.sushiya_link)));
-        attractions.add(new Attraction("Habash", "Mashiyah Barukhof, 5", "For some Ethiopian tastes.",
+        attractions.add(new Attraction("Habash", "Mashiyah Barukhof 5", "For some Ethiopian tastes.",
                 R.drawable.habash, getString(R.string.habash_link)));
-        attractions.add(new Attraction("HaBardak", "Keren HaYesod, 38", "Pizza with a variety of toppings and beers.",
+        attractions.add(new Attraction("HaBardak", "Keren HaYesod 38", "Pizza with a variety of toppings and beers.",
                 R.drawable.bardak, getString(R.string.habardak_link)));
-        attractions.add(new Attraction("Waffle Factory", "Sderot Yitshak Rabin, 10", "For a nice meal and even nicer dessert.",
+        attractions.add(new Attraction("Waffle Factory", "Sderot Yitshak Rabin 10", "For a nice meal and even nicer dessert.",
                 R.drawable.waffle, getString(R.string.waffle_link)));
-        attractions.add(new Attraction("Arbes", "Shilo, 1", "After visiting the Mahane Yehuda market, come and eat hummus!",
+        attractions.add(new Attraction("Arbes", "Shilo 1", "After visiting the Mahane Yehuda market, come and eat hummus!",
                 R.drawable.arbes, getString(R.string.arbes_link)));
 
         AttractionsAdapter adapter = new AttractionsAdapter(getActivity(), attractions);
