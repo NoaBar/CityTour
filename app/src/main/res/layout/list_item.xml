@@ -3,17 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="25dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="35dp">
 
     <TextView
         android:id="@+id/name"
         style="@style/list_item"
-        android:textSize="25sp"
-        android:textColor="@color/colorPrimary"
-        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="bold"
         tools:text="Name of Attraction" />
 
     <TextView
@@ -21,24 +21,33 @@
         style="@style/list_item"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="Info of Attraction"
-        />
+        tools:text="Info of Attraction" />
 
-    <TextView
-        android:id="@+id/address"
-        style="@style/list_item"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="Address of Attraction"
-        />
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_location_on_black_24dp" />
+
+        <TextView
+            android:id="@+id/address"
+            style="@style/list_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_light"
+            tools:text="Address of Attraction" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/link"
         style="@style/list_item"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="Link of Attraction"
-        />
+        tools:text="Link of Attraction" />
 
     <ImageView
         android:id="@+id/image"
