@@ -45,7 +45,11 @@ public class AttractionsAdapter extends ArrayAdapter<Attraction> {
         info.setText(currentWord.getInfo());
 
         TextView address = (TextView) listItemView.findViewById(R.id.address);
-        address.setText("   " + currentWord.getAddress());
+        address.setText(currentWord.getAddress());
+
+        if (currentWord.getAddress() == null){
+            address.setVisibility(View.GONE);
+        }
 
         address.setOnClickListener(new View.OnClickListener() {
             public void showMap(Uri geoLocation) {
@@ -63,11 +67,10 @@ public class AttractionsAdapter extends ArrayAdapter<Attraction> {
             }
         });
 
-
         TextView link = (TextView) listItemView.findViewById(R.id.link);
         link.setClickable(true);
         link.setMovementMethod(LinkMovementMethod.getInstance());
-        link.setText("   "+Html.fromHtml(currentWord.getLink()));
+        link.setText(Html.fromHtml(currentWord.getLink()));
 
         ImageView image = (ImageView) listItemView.findViewById(R.id.image);
         image.setImageResource(currentWord.getImage());
