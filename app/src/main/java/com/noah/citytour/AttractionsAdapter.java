@@ -73,6 +73,9 @@ public class AttractionsAdapter extends ArrayAdapter<Attraction> {
             }
         });
 
+        /**
+         * Link for website
+         */
         TextView link = (TextView) listItemView.findViewById(R.id.link);
         link.setClickable(true);
         link.setMovementMethod(LinkMovementMethod.getInstance());
