@@ -1,6 +1,5 @@
 package com.noah.citytour;
 
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -15,11 +14,8 @@ import java.util.ArrayList;
  */
 public class ParksFragment extends Fragment {
 
-
     public ParksFragment() {
-        // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -48,5 +44,4 @@ public class ParksFragment extends Fragment {
 
         return rootView;
     }
-
 }

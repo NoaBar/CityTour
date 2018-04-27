@@ -13,9 +13,7 @@ import java.util.ArrayList;
  */
 public class TheatersFragment extends Fragment {
 
-
     public TheatersFragment() {
-        // Required empty public constructor
     }
 
     @Override
@@ -43,5 +41,4 @@ public class TheatersFragment extends Fragment {
 
         return rootView;
     }
-
 }

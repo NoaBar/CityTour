@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
                         int id = menuItem.getItemId();
 
-                        switch (id){
+                        switch (id) {
                             default:
                                 fragment = new RestaurantsFragment();
                                 break;
@@ -71,16 +71,14 @@ public class MainActivity extends AppCompatActivity {
                             case R.id.useful_web:
                                 fragment = new WebFragment();
                                 break;
-
                         }
                         openFragment(fragment);
                         return true;
                     }
                 });
-
     }
 
-    private void openFragment(Fragment fragment){
+    private void openFragment(Fragment fragment) {
         if (fragment != null) {
             FragmentManager fragmentManager = getSupportFragmentManager();
             fragmentManager.beginTransaction()

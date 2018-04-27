@@ -16,11 +16,8 @@ import java.util.ArrayList;
  */
 public class WebFragment extends Fragment {
 
-
     public WebFragment() {
-        // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -42,5 +39,4 @@ public class WebFragment extends Fragment {
 
         return rootView;
     }
-
 }

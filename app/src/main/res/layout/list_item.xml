@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/pewter"
     android:padding="25dp">
 
     <TextView
@@ -11,9 +12,9 @@
         style="@style/list_item"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/colorPrimary"
         android:textSize="25sp"
         android:textStyle="bold"
+        android:textColor="@color/dark_olive"
         tools:text="Name of Attraction" />
 
     <TextView
@@ -29,7 +30,7 @@
             style="@style/list_item"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/holo_blue_light"
+            android:textColor="@color/forest_green"
             tools:text="Address of Attraction"
             android:drawablePadding="10dp"
             android:gravity="center"

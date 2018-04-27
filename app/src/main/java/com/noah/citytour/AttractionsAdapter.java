@@ -47,10 +47,16 @@ public class AttractionsAdapter extends ArrayAdapter<Attraction> {
         TextView address = (TextView) listItemView.findViewById(R.id.address);
         address.setText(currentWord.getAddress());
 
+        /** When there is no address in the attraction,
+         * the textView will be invisible
+         */
         if (currentWord.getAddress() == null){
             address.setVisibility(View.GONE);
         }
 
+        /** OnClick listener for clicking on the address textView
+         * Maps intent
+          */
         address.setOnClickListener(new View.OnClickListener() {
             public void showMap(Uri geoLocation) {
                 Intent intent = new Intent(Intent.ACTION_VIEW);
@@ -77,5 +83,4 @@ public class AttractionsAdapter extends ArrayAdapter<Attraction> {
 
         return listItemView;
     }
-
 }
