@@ -14,4 +14,10 @@
         <item name="android:textSize">15sp</item>
         <item name="android:textColor">@android:color/black</item>
     </style>
+
+    <style name="nav_title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
 </resources>

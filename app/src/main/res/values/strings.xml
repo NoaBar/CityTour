@@ -81,5 +81,6 @@
     <string name="alternative_guide_info">This amazing group on facebook keeps you updated about all the alternative events happening in the city, for every age and every budget :)</string>
     <string name="municipality_name">Jerusalem Municipality</string>
     <string name="municipality_info">For information straight from the official municipality website.</string>
+    <string name="nav_header_title">What are you looking for?</string>
 
 </resources>

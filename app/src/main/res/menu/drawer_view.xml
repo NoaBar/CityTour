@@ -5,21 +5,21 @@
 
         <item
             android:id="@+id/restaurants"
-            android:icon="@drawable/number_one"
+            android:icon="@drawable/ic_local_dining_white_24dp"
             android:title="@string/culinary" />
         <item
             android:id="@+id/theaters_shows"
-            android:icon="@drawable/number_one"
+            android:icon="@drawable/ic_event_seat_white_24dp"
             android:title="@string/theaters_shows" />
 
         <item
             android:id="@+id/parks"
-            android:icon="@drawable/number_one"
+            android:icon="@drawable/ic_local_florist_white_24dp"
             android:title="@string/parks" />
 
         <item
             android:id="@+id/useful_web"
-            android:icon="@drawable/number_one"
+            android:icon="@drawable/ic_public_white_24dp"
             android:title="@string/usefulWeb" />
     </group>
 </menu>

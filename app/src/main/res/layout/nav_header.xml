@@ -2,21 +2,21 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="?android:attr/actionBarSize"
     android:background="@color/colorPrimaryDark"
-    android:gravity="bottom"
+    android:layout_marginTop="25dp"
+    android:padding="15dp"
     android:orientation="vertical"
-    android:paddingBottom="20dp"
-    android:paddingTop="50dp"
-    android:paddingStart="16dp"
+    android:paddingStart="10dp"
+    android:backgroundTint="@color/colorAccent"
     android:theme="@style/ThemeOverlay.AppCompat.Light">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/list_item"
-        android:textColor="@android:color/white"
-        android:text="What are you looking for?"
+        android:layout_height="match_parent"
+        style="@style/nav_title"
+        android:gravity="center_vertical"
+        android:text="@string/nav_header_title"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
 </LinearLayout>
