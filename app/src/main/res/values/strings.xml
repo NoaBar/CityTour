@@ -29,5 +29,57 @@
     <string name="bell_link">&lt;a href="https://www.jerusalem.muni.il/Residents/ParksandLandscapes/Gardens/site420/Pages/PageSite_3631.aspx"&gt;For more details&lt;/a&gt;</string>
     <string name="sacher_link">&lt;a href="https://www.jerusalem.muni.il/Residents/ParksandLandscapes/Gardens/site420/Pages/PageSite_3479.aspx"&gt;For more details&lt;/a&gt;</string>
     <string name="market_link">&lt;a href="http://en.machne.co.il/"&gt;For more details&lt;/a&gt;</string>
+    <string name="machane_yehuda_name">Machane Yehuda market</string>
+    <string name="machane_yehuda_address">Machane Yehuda St</string>
+    <string name="sushiya_name">Sushi-ya</string>
+    <string name="sushiya_address">Trumpeldor 1</string>
+    <string name="habash_name">Habash</string>
+    <string name="habash_address">Mashiyah Barukhof 5</string>
+    <string name="habash_info">For some Ethiopian tastes.</string>
+    <string name="sushiya_info">The nicest most homely sushi place in town. Try the rice bowl!</string>
+    <string name="machane_yehuda_info">Walk around the market in daylight to experience the flavors and scents of a true market, come back at night for the shows and the drinks!</string>
+    <string name="bardak_name">HaBardak</string>
+    <string name="bardak_address">Keren HaYesod 38</string>
+    <string name="bardak_info">Pizza with a variety of toppings and beers.</string>
+    <string name="wafflefacory_name">Waffle Factory</string>
+    <string name="wafflefacory_address">Sderot Yitshak Rabin 10</string>
+    <string name="wafflefacory_info">For a nice meal and even nicer dessert.</string>
+    <string name="arbes_name">Arbes</string>
+    <string name="arbes_address">Shilo 1</string>
+    <string name="arbes_info">After visiting the Mahane Yehuda market, come and eat hummus!</string>
+    <string name="mazkeka_name">Mazkeka Venue</string>
+    <string name="mazkeka_address">Shoshan 3</string>
+    <string name="mazkeka_info">Indie music every evening!</string>
+    <string name="khan_name">Jerusalem Khan Theatre</string>
+    <string name="khan_address">David Remez 2</string>
+    <string name="khan_info">For intimate experience of theatre and music events at the theatre coffee place.</string>
+    <string name="jeru_theater_name">Jerusalem Theatre</string>
+    <string name="jeru_theater_address">David Marcus 20</string>
+    <string name="jeru_theater_info">The centre for the performing arts in Jerusalem.</string>
+    <string name="cinema_name">Cinema City Jerusalem</string>
+    <string name="cinema_address">Sderot Yitshak Rabin 10</string>
+    <string name="cinema_info">The place to watch all the latest movies.</string>
+    <string name="abraham_name">Abraham Hostel</string>
+    <string name="abraham_address">HaNeviim 67</string>
+    <string name="abraham_info">Take a part in the nightlife and events in the hostel, even if you are not staying there.</string>
+    <string name="sacher_name">Sacher Garden</string>
+    <string name="sacher_address">Sderot Ben Tsvi 1</string>
+    <string name="sacher_info">The Central park of Jerusalem!</string>
+    <string name="bell_name">The Bell (Hapa\'amon) Garden</string>
+    <string name="bell_address">King David St</string>
+    <string name="bell_info">Great for families with children.</string>
+    <string name="lions_fountain_name">Lions Fountain, Bloomfield Park</string>
+    <string name="lions_fountain_address">King David St</string>
+    <string name="lions_fountain_info">Come and enjoy the fountain, the statues and the flowers in spring.</string>
+    <string name="jeru_park_name">Jerusalem Park</string>
+    <string name="jeru_park_address">Jerusalem Park</string>
+    <string name="jeru_park_info">The park is divided into 4 parts around the city, each part is different from the other. Choose the part that is the most suitable for you!</string>
+    <string name="zoo_name">The Jerusalem Biblical Zoo</string>
+    <string name="zoo_address">Derech Aharon Shulov 1</string>
+    <string name="zoo_info">The most famous zoo in Israel!</string>
+    <string name="alternative_guide_name">The guide for the alternative Jerusalem dweller</string>
+    <string name="alternative_guide_info">This amazing group on facebook keeps you updated about all the alternative events happening in the city, for every age and every budget :)</string>
+    <string name="municipality_name">Jerusalem Municipality</string>
+    <string name="municipality_info">For information straight from the official municipality website.</string>
 
 </resources>

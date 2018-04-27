@@ -24,18 +24,18 @@ public class RestaurantsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.attractions_list, container, false);
 
         final ArrayList<Attraction> attractions = new ArrayList<>();
-        attractions.add(new Attraction("Machane Yehuda market",
-                "Machane Yehuda St", "Walk around the market in daylight to experience the flavors and scents of a true market, come back at night for the shows and the drinks!",
+        attractions.add(new Attraction(getString(R.string.machane_yehuda_name),
+                getString(R.string.machane_yehuda_address), getString(R.string.machane_yehuda_info),
                 R.drawable.market ,getString(R.string.market_link)));
-        attractions.add(new Attraction("Sushi-ya","Trumpeldor 1","The nicest most homely sushi place in town. Try the rice bowl!",
+        attractions.add(new Attraction(getString(R.string.sushiya_name),getString(R.string.sushiya_address),getString(R.string.sushiya_info),
                 R.drawable.sushiya, getString(R.string.sushiya_link)));
-        attractions.add(new Attraction("Habash", "Mashiyah Barukhof 5", "For some Ethiopian tastes.",
+        attractions.add(new Attraction(getString(R.string.habash_name), getString(R.string.habash_address), getString(R.string.habash_info),
                 R.drawable.habash, getString(R.string.habash_link)));
-        attractions.add(new Attraction("HaBardak", "Keren HaYesod 38", "Pizza with a variety of toppings and beers.",
+        attractions.add(new Attraction(getString(R.string.bardak_name), getString(R.string.bardak_address), getString(R.string.bardak_info),
                 R.drawable.bardak, getString(R.string.habardak_link)));
-        attractions.add(new Attraction("Waffle Factory", "Sderot Yitshak Rabin 10", "For a nice meal and even nicer dessert.",
+        attractions.add(new Attraction(getString(R.string.wafflefacory_name), getString(R.string.wafflefacory_address), getString(R.string.wafflefacory_info),
                 R.drawable.waffle, getString(R.string.waffle_link)));
-        attractions.add(new Attraction("Arbes", "Shilo 1", "After visiting the Mahane Yehuda market, come and eat hummus!",
+        attractions.add(new Attraction(getString(R.string.arbes_name), getString(R.string.arbes_address), getString(R.string.arbes_info),
                 R.drawable.arbes, getString(R.string.arbes_link)));
 
         AttractionsAdapter adapter = new AttractionsAdapter(getActivity(), attractions);

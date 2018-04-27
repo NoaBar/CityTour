@@ -28,10 +28,10 @@ public class WebFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.attractions_list, container, false);
 
         final ArrayList<Attraction> attractions = new ArrayList<>();
-        attractions.add(new Attraction("The guide for the alternative Jerusalem dweller","This amazing group on facebook keeps you updated about all the alternative events happening in the city, for every age and every budget :)",
+        attractions.add(new Attraction(getString(R.string.alternative_guide_name),getString(R.string.alternative_guide_info),
                 R.drawable.guid,
                 getString(R.string.alternative_guide_link)));
-        attractions.add(new Attraction("Jerusalem Municipality", "For information straight from the official municipality website.",
+        attractions.add(new Attraction(getString(R.string.municipality_name), getString(R.string.municipality_info),
                 R.drawable.municipality, getString(R.string.muni_link)));
 
         AttractionsAdapter adapter = new AttractionsAdapter(getActivity(), attractions);
